@@ -13,15 +13,15 @@ Quick Start
 1. cd baited_assembly_example
 2. git submodule init && git submodule update
 3. Edit make file variables
-  * _MUST CHANGE_
-    * IN_SEQ_FILES to point to the reads (more than one file is fine)
-    * IN_REF_FILES to point to the baits (more than one file is fine)
-    * BOWTIE to point to the bowtie2 executable
-    * SAMTOOLS to point to the samtools executable
-  * Can Change
-    * NAME - used to prefix some files
-    * K_SIZE - Kmer size to assemble at
-    * FILTER_SIZE - How much space the bloom filter will occupy
+    * _MUST CHANGE_
+        * IN_SEQ_FILES to point to the reads (more than one file is fine)
+        * IN_REF_FILES to point to the baits (more than one file is fine)
+        * BOWTIE to point to the bowtie2 executable
+        * SAMTOOLS to point to the samtools executable
+    * Can Change
+        * NAME - used to prefix some files
+        * K_SIZE - Kmer size to assemble at
+        * FILTER_SIZE - How much space the bloom filter will occupy
 4. make
 
 Workflow Outline
